@@ -71,7 +71,7 @@ extension_services:
             class: DbVariables
             provision.extramb: 1000
             restjavad.useextramb: true
-            ui.advisory.color: blue
+            ui.advisory.color: green
             ui.advisory.text: "Provisioned via Runtime Init and DO"
           myDns:
             class: DNS
