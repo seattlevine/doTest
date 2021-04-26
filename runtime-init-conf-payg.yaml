@@ -65,13 +65,16 @@ extension_services:
           Autoscale 1NIC BIG-IP declaration for Declarative Onboarding with
           PAYG license
         async: true
+        controls:
+          trace: true
+          traceResponse: true
         Common:
           class: Tenant
           dbVars:
             class: DbVariables
             provision.extramb: 1000
             restjavad.useextramb: true
-            ui.advisory.color: green
+            ui.advisory.color: blue
             ui.advisory.text: "Provisioned via Runtime Init and DO"
           myDns:
             class: DNS
